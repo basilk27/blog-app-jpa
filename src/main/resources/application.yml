@@ -1,0 +1,29 @@
+server:
+  port: 8080
+  servlet:
+    contextPath:  /blog
+
+spring:
+  application:
+    name: blog-service
+
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+      jdbc.lob.non_contextual:  true
+      generate-ddl:  true
+
+    datasource:
+      username: root
+      password: Xsw2@3#edc
+      url:  jdbc:mysql://localhost:3306/rapiddb01
+      driverClassName:  com.mysql.cj.jdbc.Driver
+
+    logging:
+      file: logs/blogging-service.log
+      level:
+        org.hibernate.SQL:  ERROR
+        or.springframework.data:  DEBUG
+
+
