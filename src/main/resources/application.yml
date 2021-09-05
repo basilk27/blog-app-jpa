@@ -16,7 +16,7 @@ spring:
 
     datasource:
       username: root
-      password: Xsw2@3#edc
+      password: Zaq1!2@wsx
       url:  jdbc:mysql://localhost:3306/rapiddb01
       driverClassName:  com.mysql.cj.jdbc.Driver
 
